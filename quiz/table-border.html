@@ -3,7 +3,11 @@
     <head>
       <style>
 
-        td {
+         table, td {
+            border: 1px solid black;
+         }
+
+         td {
             width: 30vw;
             height: 40vh;
             text-align: center;
@@ -13,14 +17,16 @@
             max-height: 100%;
             width: auto;
             height: auto;
+            text-align: center;
         }
       </style>
     </head>
     <body>
-        <img src="../images/meme.jpeg" alt="A meme">
-        <img src="../images/paper.jpeg" alt="Paper">
-        <img src="../images/students.jpeg" alt="people">
-        <img src="../images/noimg.jpeg" alt="No Image Found">
-        
+    <table width="75%">
+        <tr><td><img src="../images/meme.jpeg" alt="A meme"></td>
+        <td><img src="../images/paper.jpeg" alt="Paper"></td> </tr>
+        <tr><td><img src="../images/students.jpeg" alt="people"> </td>
+            <td><img src="../images/noimg.jpeg" alt="No Image Found"></td> </tr>
+    </table>
     </body>
 </html>
